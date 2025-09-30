@@ -49,3 +49,32 @@ def main():
 
 if __name__ == "__main__":
     main()
+$ python shopping_list_manager.py
+
+Shopping List Manager
+1. Add Item
+2. Remove Item
+3. View List
+4. Exit
+Enter your choice: 1
+Enter the item to add: Milk
+'Milk' has been added to your shopping list.
+
+Shopping List Manager
+1. Add Item
+2. Remove Item
+3. View List
+4. Exit
+Enter your choice: 3
+
+Your Shopping List:
+1. Milk
+
+Shopping List Manager
+1. Add Item
+2. Remove Item
+3. View List
+4. Exit
+Enter your choice: 2
+Enter the item to remove: Eggs
+'Eggs' not found in the shopping list.
