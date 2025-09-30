@@ -1,3 +1,4 @@
+# bank_account.py
 class BankAccount:
     def __init__(self, initial_balance=0.0):
         self._account_balance = float(initial_balance)
@@ -12,6 +13,4 @@ class BankAccount:
         return False
 
     def display_balance(self):
-    """Print the current balance formatted with two decimal places."""
-    print(f"Current Balance: ${self._account_balance:.2f}")
-
+        print(f"Current Balance: ${self._account_balance}")
