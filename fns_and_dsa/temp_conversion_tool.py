@@ -35,3 +35,28 @@ def main():
 
 if __name__ == "__main__":
     main()
+$ python temp_conversion_tool.py
+Enter the temperature to convert: 100
+Is this temperature in Celsius or Fahrenheit? (C/F): F
+100.0°F is 37.77777777777778°C
+$ python temp_conversion_tool.py
+Enter the temperature to convert: 0
+Is this temperature in Celsius or Fahrenheit? (C/F): C
+0.0°C is 32.0°F
+$ python temp_conversion_tool.py
+Enter the temperature to convert: hello
+Traceback (most recent call last):
+  ...
+ValueError: Invalid temperature. Please enter a numeric value.
+
+
+
+
+
+
+
+
+
+
+
+
